@@ -6,7 +6,7 @@
 This project implements a **5x5x5 LED Cube** powered by an **ATmega328p microcontroller** to play a simplified **Space Invasion game**.  
 The cube consists of **125 individually addressable LEDs**, controlled using multiplexing with **decoders, transistors, and hex inverters**.  
 
-🎮 **Gameplay:**  
+**Gameplay:**  
 - A "ship" represented by a 3x5 LED grid moves up and down via two pushbuttons.  
 - Random barriers approach from the opposite face of the cube.  
 - The player must dodge barriers to survive as long as possible.  
@@ -15,7 +15,7 @@ This project demonstrates the integration of **hardware design, PCB implementati
 
 ---
 
-## ⚙️ Hardware Components
+##  Hardware Components
 Key components used:
 - ATmega328p Microcontroller  
 - 125 × 3mm LEDs  
@@ -26,10 +26,11 @@ Key components used:
 - 2 × Pushbuttons  
 - 5V, 1A Power Adapter  
 - Resistors, headers, PCB boards, and supporting components  
-
+---
+- All the codes included in the report (`main.c` and `led_cube.h`)
 ---
 
-## 🔧 Software Description
+##  Software Description
 - **Multiplexing** technique used to address 125 LEDs with only 11 microcontroller pins.  
 - **PORTC and PORTD** pins configured as outputs for column and layer selection.  
 - **Debounce function** implemented for reliable button inputs.  
@@ -38,7 +39,7 @@ Key components used:
 
 ---
 
-## ▶️ Usage
+##  Usage
 1. Compile the code (`main.c` and `led_cube.h`) using **AVR-GCC** or an IDE like **Atmel Studio**.  
 2. Upload the hex file to the **ATmega328p** using a programmer (e.g., USBasp).  
 3. Connect the cube, schematic-driven PCB, and pushbuttons.  
