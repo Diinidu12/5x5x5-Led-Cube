@@ -40,7 +40,7 @@ Key components used:
 ---
 
 ##  Usage
-1. Compile the code (`main.c` and `led_cube.h`) using **AVR-GCC** or an IDE like **Atmel Studio**.  
+1. Compile the code (`main.c` and `led_cube.h`) using **AVR-GCC** or an IDE.  
 2. Upload the hex file to the **ATmega328p** using a programmer (e.g., USBasp).  
 3. Connect the cube, schematic-driven PCB, and pushbuttons.  
 4. Power the cube with a **5V / 1A adapter**.  
