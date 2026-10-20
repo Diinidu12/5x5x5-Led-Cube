@@ -1,6 +1,7 @@
 # 3D LED Cube 
 
 ![LED Cube Photo](cube1.jpg)
+<img width="1169" height="828" alt="Full Circuit Schematic" src="https://github.com/user-attachments/assets/9f6c5edf-f430-421b-8164-0b0f20ab5420" />
 
 ## 📌 Project Overview
 This project implements a **5x5x5 LED Cube** powered by an **ATmega328p microcontroller** to play a simplified **Space Invasion game**.  
